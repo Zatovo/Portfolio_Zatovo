@@ -10,14 +10,14 @@
           style="margin: 0 auto;"
         >
           <div class="contact-content">
-            <h2>Connect with Me</h2>
+            <h2>Prenez contact avec moi</h2>
             <div class="contact-text">{{ contact.text }}</div>
 
             <div class="contact-info">
               <ul class="list-group list-group-flush">
                 <li v-if="contact.city !==''" class="list-group-item">
                   <h3 class="d-inline">
-                    <i class="fas fa-map-marker-alt"></i> Location:
+                    <i class="fas fa-map-marker-alt"></i> Adresse:
                   </h3>
                   <br class="d-md-none" />
                   <span>&nbsp; {{ contact.city }}</span>
@@ -34,7 +34,7 @@
 
                 <li class="list-group-item" v-if="contact.phone !==''">
                   <h3 class="d-inline">
-                    <i class="fas fa-phone"></i>  Phone:
+                    <i class="fas fa-phone"></i>  Téléphone:
                   </h3>
                   <br class="d-md-none" />
                   
@@ -52,16 +52,16 @@
                     :key="i"
                     class="social-item social-spacing list-inline-item"
                   >
-                    <a :href="item.url" :alt="item.name">
+                    <a :href="item.url" :alt="item.name" target="_blank">
                       <i :class="'fa-lg '+item.faClass"> </i>
                     </a>
                   </div>
                 </li>
                 <li class="list-group-item" v-if="contact.resumeLink !==''">
-                  <a :href="contact.resumeLink" target="_blank" alt="resume">
-                  <button class="btn btn-resume"  target="_blank">
-                    <i class="far fa-file-pdf"></i> Resume
-                  </button>
+                  <a href="../../assets/cv/CV_Zatovo.pdf" download="CV_Zatovo.pdf" alt="cv">
+                    <button class="btn btn-resume">
+                      <i class="far fa-file-pdf"></i> Télécharger mon CV
+                    </button>
                   </a>
 
                 </li>
@@ -89,7 +89,7 @@
             <i class="fa fa-user"></i>&nbsp;
           </span>
         </div>
-        <input name="name" type="name" placeholder="Name" class="form-control border-left-0" required>
+        <input name="name" type="name" placeholder="Nom" class="form-control border-left-0" required>
       </div>
     </div>
 
@@ -105,14 +105,15 @@
     </div>
 
     <div class="form-group">
-      <textarea class="form-control" id="message" rows="5" placeholder="Message" required></textarea>
+      <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
     </div>
 
     <button type="submit" class="btn">
       <i class="fa fa-paper-plane"></i> 
-      Send
+      Envoyer
     </button>
   </form>
+  <reCAPTCHA/>
 </div>
 
 
@@ -134,11 +135,14 @@
 
 <script>
 import data from "../../data/data.json";
+import reCAPTCHA from "../components/reCAPTCHA.vue";
 
 export default {
   name: "Contact",
   props: {},
-  components: {},
+  components: {
+    reCAPTCHA,
+  },
   data() {
     return {
       contact: data.contact,

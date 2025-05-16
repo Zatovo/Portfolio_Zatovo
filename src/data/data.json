@@ -1,199 +1,277 @@
 {
   "main": {
     "name": {
-        "first": "Bob",
-        "last": "Ross"
+        "first": "RAKOTONIRINA",
+        "last": "Zatovo"
     },
     "logo": true,
     "titles": [
-        "Famous Painter.",
-        "Television Host.",
-        "America's Sweetheart."
+        "Bonjour 🙋‍♂️.",
+        "Bienvenue sur mon site 🌍.",
+        "Je suis un Développeur 💻.",
+        "Créateur de Sites web.",
+        "Merci de votre visite 😁."
     ],
     "headings": {
-      "about": "About",
-      "skills": "Skills",
-      "portfolio": "Portfolio",
+      "about": "À propos",
+      "skills": "Compétences",
+      "portfolio": "Réalisation",
       "contact": "Contact"
     }
   },
     "about": {
-      "bio": "I discovered oil painting while I was enlisted in the U.S. Air Force in Alaska in the early 1960s. I studied the 'wet-on-wet' technique, also known as 'Alla Prima', used by other great painters such as Rembrandt & Monet. This allowed me to produce complete paintings in less than an hour. I then became an art instructor, creating my iconic image and eventually teaching a TV audience of millions on the TV show The Joy of Painting.",
-      "tagline": "We don't make mistakes, just happy little accidents",
+      "bio": "Un Développeur passionné et déterminé, je suis à la recherche d’une opportunité pour mettre en pratique mes connaissances, mes capacités dans une organisation qui reconnaît la valeur du travail acharné et qui me confie des responsabilités et des défis. Ma capacité à m'adapter aux nouvelles technologies et ma volonté d'apprendre rapidement me positionnent comme un candidat motivé, prêt à contribuer de manière dynamique à des projets innovants dans le domaine du développement d'applications.",
+      "tagline": "Rien n'est impossible, il nous faut juste du temps.",
       "facts": [
-        {"name": "Hometown",
-        "value": "Orlando, FL"
+        {"name": "Date de naissance",
+        "value": "02 Juillet 2003"
         },
-        {"name": "Painting Technique",
-        "value": "Alla Prima"
+        {"name": "Téléphone",
+        "value": "+261 34 30 371 49"
         },
-        {"name": "# of Paintings",
-        "value": "1,143"
+        {"name": "E-mail",
+        "value": "rakotonirinazatovo@gmail.com"
         },
-        {"name": "Sun Sign",
-          "value": "Scorpio"
+        {"name": "Adresse",
+          "value": "Lot B 310 Bis Andranomanalina I"
         }
       ]
     },
     "skills": {
-    "defaultCategory": "Painting",
+    "defaultCategory": "Frameworks & Libraries",
     
     "categories": [
       {
-        "category": "Painting",
-        "subtitle": "My true passion!",
-        "faClass": "fas fa-paint-brush",        
+        "category": "Languages de Programmation",
+        "subtitle": "Simplicité à la Complexité!",
+        "faClass": "fas fa-code",        
         "skillList":[
           {
-            "name": "Oil Painting",
-            "level": "100"
+            "faicon": "fab fa-php",
+            "name": "PHP",
+            "level": "80"
           },
           {
-            "name": "Watercolor",
-            "level": "90"
+            "faicon": "fab fa-python",
+            "name": "Python",
+            "level": "70"
           },
           
           {
-            "name": "Acrylic",
+            "faicon": "fab fa-java",
+            "name": "Java",
             "level": "70"
           },
           {
-            "name": "Pastels",
+            "faicon": "fab fa-cuttlefish",
+            "name": "C & C++",
+            "level": "70"
+          }
+        ]
+      },
+
+      {
+        "category": "Développement web",
+        "subtitle": "Solutions web modernes et Performantes!",
+        "faClass": "fas fa-laptop-code",        
+        "skillList":[
+          {
+            "faicon": "fab fa-html5",
+            "name": "HTML",
+            "level": "80"
+          },
+          {
+            "faicon": "fab fa-css3-alt",
+            "name": "CSS",
+            "level": "70"
+          },
+          
+          {
+            "faicon": "fab fa-js",
+            "name": "JavaScript",
+            "level": "70"
+          }
+        ]
+      },
+
+      {
+        "category": "Frameworks & Libraries",
+        "subtitle": "Ma boîte à outils technologique!",
+        "faClass": "fas fa-toolbox",        
+        "skillList":[
+          {
+            "faicon": "fab fa-laravel",
+            "name": "Laravel",
+            "level": "80"
+          },
+          {
+            "faicon": "fab fa-bootstrap",
+            "name": "Bootstrap",
+            "level": "70"
+          },
+          
+          {
+            "faicon": "fab fa-vuejs",
+            "name": "VueJs",
+            "level": "60"
+          },
+          {
+            "faicon": "fab fa-node-js",
+            "name": "NodeJs",
+            "level": "50"
+          }
+        ]
+      },
+
+      {
+        "category": "SGBD",
+        "subtitle": "Modélisation, normalisation et requêtage SQL avancé.",
+        "faClass": "fas fa-database",        
+        "skillList":[
+          {
+            "faicon": "",
+            "name": "MySQL",
+            "level": "80"
+          },
+          {
+            "faicon": "",
+            "name": "PostgreSQL",
+            "level": "80"
+          },
+          
+          {
+            "faicon": "",
+            "name": "SQLite",
+            "level": "80"
+          },
+          {
+            "faicon": "",
+            "name": "PLSQL",
             "level": "60"
           }
         ]
       },
 
       {
-        "category": "Teaching",
-        "subtitle": "",
+        "category": "Architecture & Modélisation",
+        "subtitle": "De l'idée à la structure : Modéliser pour mieux Construire.",
+        "faClass": "fas fa-sitemap",        
+        "skillList":[
+          {
+            "faicon": "fas fa-project-diagram",
+            "name": "UML",
+            "level": "80"
+          },
+          {
+            "faicon": "fas fa-database",
+            "name": "MERISE",
+            "level": "80"
+          }
+        ]
+      },
+
+      {
+        "category": "Formation",
+        "subtitle": "Formation et développement des compétences",
         "faClass": "fas fa-chalkboard-teacher",        
         "skillList":[
           {
+            "faicon": "fas fa-comments",
             "name": "Communication",
-            "level": "90"
+            "level": "80"
           },
           
           {
+            "faicon": "fas fa-hourglass-start",
             "name": "Patience",
             "level": "100"
           },
           {
+            "faicon": "fas fa-user-tie",
             "name": "Leadership",
-            "level": "90"
+            "level": "80"
           }
         ]
       }
     ]
   },
 "portfolio": {
-  "defaultFilter": "mountains",
+  "defaultFilter": "Développement web",
   "projects": [
     {
-      "title": "Peaceful Valley",
-      "description": "S1E8",
-      "image": "peacefulvalley.png",
-      "link": "https://www.twoinchbrush.com/painting/peaceful-valley",
-      "source": "https://www.twoinchbrush.com/painting/peaceful-valley",
-      "filter": "mountains"
+      "title": "Annuaire du personnel",
+      "description": "Application de gestion des informations et Analyse de performance des employés.",
+      "image": "Composition1.jpg",
+      "link": "",
+      "source": "https://github.com/Zatovo/Annuaire-du-personnel.git",
+      "filter": "Développement web"
         },
     {
-      "title": "Meadow Lake",
-      "description": "S2E1",
-      "image": "meadowlake.png",
-      "link": "https://www.twoinchbrush.com/painting/meadow-lake",
-      "source": "https://www.twoinchbrush.com/painting/meadow-lake",
-      "filter": "mountains"
+      "title": "Job Connect",
+      "description": "Site d'offre d'emploi et postage de recrutement.",
+      "image": "Composition3.jpg",
+      "link": "",
+      "source": "https://github.com/Zatovo/Espace_emploi.git",
+      "filter": "Développement web"
     },
     {
-      "title": "Final Grace",
-      "description": "S2E13",
-      "image": "finalgrace.png",
-      "link": "https://www.twoinchbrush.com/painting/final-grace",
-      "source": "https://www.twoinchbrush.com/painting/final-grace",
-      "filter": "mountains"
+      "title": "Portfolio",
+      "description": "Mon site web personnel et portfolio.",
+      "image": "Composition4.jpg",
+      "link": "",
+      "source": "https://github.com/Zatovo/Portfolio_Zatovo.git",
+      "filter": "Développement web"
     },
     {
-      "title": "Purple Splendor",
-      "description": "S4E1",
-      "image": "purplesplendor.png",
-      "link": "https://www.twoinchbrush.com/painting/purple-splendor",
-      "source": "https://www.twoinchbrush.com/painting/purple-splendor",
-      "filter": "snow"
-    },
-    {
-      "title": "Winter Stillness",
-      "description": "S5E4",
-      "image": "winterstillness.png",
-      "link": "https://www.twoinchbrush.com/painting/winter-stillness",
-      "source": "https://www.twoinchbrush.com/painting/winter-stillness",
-      "filter": "snow"
-    },
-    {
-      "title": "Grey Winter",
-      "description": "S7E11",
-      "image": "greywinter.png",
-      "link": "https://www.twoinchbrush.com/painting/grey-winter",
-      "source": "https://www.twoinchbrush.com/painting/grey-winter",
-      "filter": "snow"
-    },
-    {
-      "title": "Bubbling Stream",
-      "description": "S3E3",
-      "image": "bubblingstream.png",
-      "link": "https://www.twoinchbrush.com/painting/bubbling-stream",
-      "source": "https://www.twoinchbrush.com/painting/bubbling-stream",
-      "filter": "water"
-    },
-    {
-      "title": "Blaze of Color",
-      "description": "S6E13",
-      "image": "blazeofcolor.png",
-      "link": "https://www.twoinchbrush.com/painting/blaze-of-color",
-      "source": "https://www.twoinchbrush.com/painting/blaze-of-color",
-      "filter": "water"
-    },
-    {
-      "title": "Night Light",
-      "description": "S3E8",
-      "image": "nightlight.png",
-      "link": "https://www.twoinchbrush.com/painting/night-light",
-      "source": "https://www.twoinchbrush.com/painting/night-light",
-      "filter": "water"
+      "title": "Site e-commerce",
+      "description": "Gestion et maintenance de plateforme e-commerce",
+      "image": "Composition2.jpg",
+      "link": "https://www.dimasport.fr/fr/",
+      "source": "",
+      "filter": "Développement CMS"
     }
-
   ]
 },
     "contact":{
-      "text": "It will be pretty hard to reach me, probably.",
-      "formTitle": "Send Me A Message",
-      "formEndPoint": "",
-      "city": "Orlando, Florida",
-      "email": "info@bobross.com",
-      "phone": "1-800-BOB-ROSS",
-      "resumeLink": "https://www.twoinchbrush.com/all-paintings",
+      "text": "Je suis impatient de discuter des opportunités de contribution.",
+      "formTitle": "Envoyez-moi un message",
+      "formEndPoint": "https://formspree.io/f/xjkwjlba",
+      "city": "Antananarivo 101, Lot B 310 Bis Andranomanalina I",
+      "email": "rakotonirinazatovo@gmail.com",
+      "phone": "+261 34 30 371 49",
+      "resumeLink": "../../assets/cv/CV_Zatovo.pdf",
       "form": true,
       
       "social": [
           {
-            "name": "twitter",
-            "url": "https://twitter.com/bobrossofficial",
-            "faClass": "fab fa-twitter"
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/zatovoniaina-rakotonirina-8b53142a3",
+            "faClass": "fab fa-linkedin-in"
+          },
+          {
+            "name": "github",
+            "url": "https://github.com/zatovo",
+            "faClass": "fab fa-github"
           },
           {
             "name": "facebook",
-            "url": "https://www.facebook.com/TheJoyofPaintingWithBobRoss/",
+            "url": "https://www.facebook.com/nirina.zatovoniaina",
             "faClass": "fab fa-facebook-f"
           },
           {
-            "name": "instagram",
-            "url": "https://www.instagram.com/bobross_thejoyofpainting/",
-            "faClass": "fab fa-instagram"
+            "name": "whatsapp",
+            "url": "https://wa.me/261343037149",
+            "faClass": "fab fa-whatsapp"
+          },
+          {
+            "name": "twitter",
+            "url": "https://twitter.com/Nirina_Ny_Aina",
+            "faClass": "fab fa-twitter"
           }
         ]
       },
   "footer": {
-    "copyrightText": "All Rights Reserved."
+    "copyrightText": "Tous droits réservés."
   }
 
 }

@@ -3,17 +3,17 @@
     <ul class="list-inline">
       <li class="list-inline-item">
         <a class="nav-item nav-link active" href="#">
-          Home
+          Accueil
         </a>
       </li>
       <li class="list-inline-item">
-        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#about">À propos</a>
       </li>
       <li class="list-inline-item">
-        <a class="nav-item nav-link" href="#skills">Skills</a>
+        <a class="nav-item nav-link" href="#skills">Compétences</a>
       </li>
       <li class="list-inline-item">
-        <a class="nav-item nav-link" href="#portfolio">portfolio</a>
+        <a class="nav-item nav-link" href="#portfolio">Réalisation</a>
       </li>
       <li class="list-inline-item">
         <a class="nav-item nav-link" href="#contact">Contact</a>
@@ -35,11 +35,11 @@
     <div class="copyright">
       <p>
         Copyright © {{ new Date().getFullYear() }}
-        {{ text.main.name.first }} {{ text.main.name.last  }}.
+        {{ text.main.name.last  }}.
         {{ text.footer.copyrightText }}
       </p>
     </div>
-    <div class="credit">
+    <!-- <div class="credit">
       <p>
         Designed with 👽 by
         <a
@@ -49,7 +49,7 @@
           >darnocer</a
         >
       </p>
-    </div>
+    </div> -->
   </footer>
 </template>
 

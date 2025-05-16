@@ -2,7 +2,7 @@
   <header id="home" class="bg">
     <nav class="navbar navbar-expand-lg fixed-top dark-bg">
       <a class="navbar-brand" href="#">
-        <div v-if="main.logo"><img src="../../assets/images/logo.png" alt="logo" id="Logo"></div>
+        <div v-if="main.logo"><img src="../../assets/images/logo.png" alt="logo" id="Logo" style="width: 90px;"></div>
         <div v-if="!main.logo">
           <span id="FirstName">{{main.name.first}}</span> <span id="LastName">{{main.name.last}}</span>
         </div>
@@ -21,11 +21,11 @@
       <div id="navbarNavAltMarkup" class="collapse navbar-collapse">
         <ul id="navbar-nav" class="navbar-nav ml-auto">
           <li class="active-nav">
-            <a class="nav-item nav-link" href="#home">Home</a>
+            <a class="nav-item nav-link" href="#home">Accueil</a>
           </li>
-          <li><a class="nav-item nav-link" href="#about">About</a></li>
-          <li><a class="nav-item nav-link" href="#skills">Skills</a></li>
-          <li><a class="nav-item nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-item nav-link" href="#about">À propos</a></li>
+          <li><a class="nav-item nav-link" href="#skills">Compétences</a></li>
+          <li><a class="nav-item nav-link" href="#portfolio">Réalisation</a></li>
           <li><a class="nav-item nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>

@@ -11,7 +11,7 @@
         >
           <img
             class="profile-pic"
-            src="../../assets/images/profile-pic.png"
+            src="../../assets/images/profile-pic.jpg"
             alt="profile picture"
           />
         </div>
@@ -21,7 +21,7 @@
           data-aos-duration="1000"
         >
           <p id="about-content">
-            <span id="greeting">I'm {{ name }}! </span>
+            <span id="greeting">Je m'appelle {{ name }} ! </span><br>
             <span id="bio" v-html="about.bio"></span>
           </p>
         </div>
@@ -33,7 +33,7 @@
         >
           <ul class="list-group list-group-flush">
             <li v-for="item in facts" :key="item.name" class="list-group-item">
-              <h3 class="d-inline">{{ item.name }}: </h3>
+              <h3 class="d-inline">{{ item.name }} : </h3>
               <br class="d-md-none" />{{ item.value }}
             </li>
           </ul>
@@ -58,7 +58,7 @@ export default {
   data() {
     return {
       about: data.about,
-      name: data.main.name.first,
+      name: data.main.name.last,
       facts: data.about.facts,
       heading: data.main.headings.about,
     };

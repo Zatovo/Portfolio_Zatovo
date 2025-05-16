@@ -48,7 +48,12 @@
               v-for="skill in item.skillList"
               :key="skill.name"
             >
-              <h3 class="skill-name" v-html="skill.name"></h3>
+              <!-- <h3 class="skill-name" v-html="skill.name"></h3> -->
+              <div class="skill-header">
+                <div class="fs-10"><i :class="skill.faicon"></i></div>
+                <h3 class="skill-name" v-html="skill.name"></h3>
+                <h3>{{ skill.level }}%</h3>
+              </div>
               <div class="outer-bar">
                 <div :class="'inner-bar level--' + skill.level"></div>
               </div>
