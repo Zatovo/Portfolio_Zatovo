@@ -81,7 +81,7 @@
 <!-- start of contact form  -->
 
 <div class="container contact-form">
-  <form :action="contact.formEndPoint" method="POST" target="_blank">
+  <form :action="contact.formEndPoint" method="POST">
     <div class="form-group">
       <div class="input-group">
         <div class="input-group-prepend">
