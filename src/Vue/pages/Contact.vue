@@ -113,7 +113,6 @@
       Envoyer
     </button>
   </form>
-  <reCAPTCHA/>
 </div>
 
 
@@ -135,14 +134,11 @@
 
 <script>
 import data from "../../data/data.json";
-import reCAPTCHA from "../components/reCAPTCHA.vue";
 
 export default {
   name: "Contact",
   props: {},
-  components: {
-    reCAPTCHA,
-  },
+  components: {},
   data() {
     return {
       contact: data.contact,
