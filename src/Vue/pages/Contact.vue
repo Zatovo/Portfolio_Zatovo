@@ -58,7 +58,7 @@
                   </div>
                 </li>
                 <li class="list-group-item" v-if="contact.resumeLink !==''">
-                  <a href="/cv/CV_Zatovo.pdf" download>
+                  <a :href="contact.resumeLink" download>
                     <button class="btn btn-resume">
                       <i class="far fa-file-pdf"></i> Télécharger mon CV
                     </button>
